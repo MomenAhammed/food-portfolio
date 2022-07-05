@@ -1,3 +1,36 @@
 body {
     font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+section {
+    display: flex;
+}
+
+section img {
+    width: 700px;
+    margin-left: 15%;
+
+}
+
+#color {
+    color: orange;
+}
+
+.fast-part {
+    margin-left: 10%;
+    font-size: 150%;
+    margin-top: 10%;
+
+}
+
+.button-style {
+    text-decoration: none;
+    background-image: linear-gradient(yellow, rgb(255, 0, 34));
+    padding: 20px 50px;
+    border-radius: 20px;
 }
