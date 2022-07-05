@@ -11,22 +11,29 @@ section {
     display: flex;
 }
 
-section img {
+.half-width img {
     width: 700px;
     margin-left: 7%;
     margin-bottom: 10%;
 
 }
 
+.half-width {
+    margin-left: 7%;
+    margin-bottom: 5%;
+}
+
 #color {
     color: orange;
 }
 
-.fast-part {
-    margin-left: 10%;
-    font-size: 150%;
-    margin-top: 8%;
+.second-area {
+    background-image: url(shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+}
 
+#adddd {
+    text-align: center;
 }
 
 .button-style {
@@ -34,4 +41,28 @@ section img {
     background-image: linear-gradient(yellow, rgb(255, 0, 34));
     padding: 20px 50px;
     border-radius: 20px;
+}
+
+/* 2nd part of this webside */
+.food-item img {
+    width: 400px;
+
+    border-radius: 15px;
+
+}
+
+.food-item {
+    border: 2px solid whitesmoke;
+    text-align: center;
+    box-shadow: 2px 2px 3px white;
+
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+.black {
+    color: azure;
 }
